@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 44;
+var inLine = 6;
+
+var numLines = Math.ceil(cats/inLine);
+var missing = inLine*numLines-cats;
+
+console.log(`${cats} gatti in fila per ${inLine} si unirono compatti in ${numLines} nell'ultima fila avanzavano ${missing} gatti`);
